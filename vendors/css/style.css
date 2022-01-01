@@ -1,0 +1,58 @@
+/* home */
+
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+#header{
+    background-color: rgba(10, 6, 73, 0.822);
+    color: #fff;
+  
+}
+#header div div h1{
+     padding:20px;
+     display: inline-block;
+}
+.header-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 10vh;
+    display: inline-block;
+    padding: 8px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+.text-gold{
+    color: #FFD700;
+}
+.bg-img{
+    background-image: url("../img/hd-city-at-night-rqouzh9ls6z1d2k8\ \(2\).jpg");
+    height: 98vh; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+  
+}
+.section{
+    margin-top: 25%;
+   border: 5px solid #333;
+   background-color: rgba(85, 100, 105, 0.8);
+   border-radius: 5vh;
+}
+.section h2{
+    padding: 20px;
+}
+/* /home */
+
+
+
+/* kasblar-card */
+.text-justify{
+    text-align: justify;
+}
+
+
+
+/* /kasblar-card */
