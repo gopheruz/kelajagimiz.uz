@@ -1,0 +1,102 @@
+
+body {
+  background-image:url(../img/2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+
+  #Uzb {
+    display: grid;
+  }
+
+.voy a {
+  text-decoration:none;
+  color:rgb(253, 238, 238)
+
+}
+
+button {
+
+  left: 50%;
+  transform: translate(-100%, 0);
+  font-family:Arial, Helvetica, sans-,cursive;
+  position: relative;
+}
+
+.col-md-5 a {
+  text-decoration: none;
+}
+ 
+.avtoBmw {
+   text-align: center;
+   padding-top: 80px;
+   color: white;
+   font-weight:bolder;
+   margin-left: 20px;
+   animation: text 6s ease forwards;
+}
+
+ @keyframes text {
+   0%{transform: translate(-150px);color:rgb(0, 0, 0);}
+   100%{transform: translateY(0px);}
+ }
+
+
+
+
+.kasb {
+   
+    text-align: center;
+    color:#fff;
+    animation: text 3s ease forwards;
+}
+.container {
+   text-align: center;
+   background-image: url(/img/1.jpg);
+   margin-left: 50%;
+
+    
+}
+#BMW {
+  border-radius: 50%;
+  width: 600px;
+  height: 500px;;
+  position: relative;
+  animation-timing-function: linear;
+  top: 30px;
+  animation: text 4s ease-out forwards;
+  
+}
+@keyframes text {
+  0%{transform: translate(-300px);color:rgb(1, 0, 58);}
+  100%{transform: translateY(0px);}
+}
+
+
+ /*@media (max-width: 1000px) {
+   button {
+    top: 100px;
+   }
+   h1, h4 {
+     text-align: right;
+   }
+ }
+
+@media (max-width: 769px) {
+  button {
+    left: 390px;
+  }
+}
+@media (max-width: 690px) {
+  button {
+    left: 300px;
+    top: 200px;
+  }
+}
+@media (max-width: 450px) {
+  button {
+    top: 100px;
+  }
+}
