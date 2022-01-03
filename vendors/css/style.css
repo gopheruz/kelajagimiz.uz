@@ -1,5 +1,4 @@
 /* home */
-
 *{
     margin: 0px;
     padding:0px;
@@ -9,7 +8,6 @@
 #header{
     background-color: rgba(10, 6, 73, 0.822);
     color: #fff;
-  
 }
 #header div div h1{
      padding:20px;
@@ -32,8 +30,7 @@
     height: 98vh; 
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center bottom;
-  
+    background-position: center bottom;  
 }
 .section{
     margin-top: 25%;
@@ -45,9 +42,6 @@
     padding: 20px;
 }
 /* /home */
-
-
-
 /* kasblar-card */
 .text-justify{
     text-align: justify;
@@ -60,3 +54,31 @@
 }
 
 /* /kasblar-card */
+
+.bg-light-dark{
+    background-color: rgba(5, 21, 65, 0.9);  
+}
+.tdn{
+    text-decoration: none;
+}
+
+.dc{
+   color: #fff;
+    padding: 6px;
+    border-radius: 15px;
+   margin-top: 10px;
+   transition: 1s;
+}
+.dc:hover{
+    background-color: #fff;
+    color:rgb(33, 8, 177);
+    transition: 1s;
+    font-size: 18px;
+    font-weight: bold;
+}
+.kasblar-bg{
+    background-image: url("../img/section.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
