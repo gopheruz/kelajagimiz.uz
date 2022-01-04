@@ -1,0 +1,19 @@
+{
+  "name": "kelajagimiz.uz",
+  "version": "1.0.0",
+  "description": "this is Uzbeks project but dont rady to use",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nurmuhammaddeveloper/kelajagimiz.uz.git"
+  },
+  "author": "Nurmuhammad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nurmuhammaddeveloper/kelajagimiz.uz/issues"
+  },
+  "homepage": "https://github.com/nurmuhammaddeveloper/kelajagimiz.uz#readme"
+}
