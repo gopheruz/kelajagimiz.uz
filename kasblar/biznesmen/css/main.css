@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #000;
+}
+.ph{
+    margin-top: 100px;
+}
+.img-bg{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background-image: url(../img/2.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+.qora{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background-color: #000;
+    border-radius: 50%;
+    opacity: 0.6;
+}
+.font-awe{
+    margin-top: 80px;
+    margin-left: 80px;
+}
+.font-awe a{
+    text-decoration: none;
+}
+.font-awe a i{
+    border-radius: 50%;
+    transition: all .5 ease;
+}
+.sa:hover{
+    transform: rotate(360deg);
+    transition: .5s ease;
+    background-color: rgb(22, 81, 207) !important;
+}
+.si:hover{
+    transform: rotate(360deg);
+    transition: .5s ease;
+    background-color: red !important;
+}
+.su:hover{
+    transform: rotate(360deg);
+    transition: .5s ease;
+    background-color: rgb(22, 81, 207) !important;
+}
+.btnn{
+    margin-top: 10px;
+    margin-left: 70px;
+}
